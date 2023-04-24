@@ -19,7 +19,7 @@ header a {
 
 .image_wrapper {
     padding: 20px;
-    
+    text-align: left;
 }
 
 img {
@@ -52,5 +52,13 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+footer {
+    text-align: center;
+}
+
+.contact {
+    margin-left: 0px;
 }
 
