@@ -1,0 +1,56 @@
+@font-face { /* правило. Подключение шрифта*/
+    font-family: "OpenSans_italic";
+    src: url(../font/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face { /* правило. Подключение шрифта*/
+    font-family: "OpenSans_variableFont";
+    src: url(../font/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+header {
+    text-align: center;
+}
+
+header a {
+    margin-left: 40px;
+    font-family: "OpenSans_italic";
+}
+
+.image_wrapper {
+    padding: 20px;
+    
+}
+
+img {
+    height: 100%;
+}
+
+.title {
+    text-align: center;
+}
+
+h2 {
+    border-left: 5px solid chocolate;
+    padding-left: 5px;
+}
+
+p {
+    margin-left: 30px;
+    font-family: "OpenSans_italic";
+}
+
+li {
+    font-family: "OpenSans_italic";
+}
+
+#about {
+    font-family: "Open Sans";
+}
+
+#about-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
